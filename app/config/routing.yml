@@ -1,0 +1,4 @@
+web_canyon_cron_manager:
+    resource: "@WebCanyonCronManagerBundle/Resources/config/routing.yml"
+    prefix:   /
+
