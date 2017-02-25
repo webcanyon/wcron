@@ -1,4 +1,3 @@
-crontab
-=======
+## Synopsis
 
-A Symfony project created on January 7, 2017, 1:58 pm.
+This project is a cron manager for Symfony applications.   
