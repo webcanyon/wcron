@@ -4,7 +4,7 @@
 parameters:
     database_host:     127.0.0.1
     database_port:     ~
-    database_name:     symfony
+    database_name:     wcrons
     database_user:     root
     database_password: ~
     # You should uncomment this if you want use pdo_sqlite
@@ -17,3 +17,12 @@ parameters:
 
     # A secret key that's used to generate certain security-related tokens
     secret:            ThisTokenIsNotSoSecretChangeIt
+
+    test_database_host:     127.0.0.1
+    test_database_port:     ~
+    test_database_name:     wcrons
+    test_database_user:     root
+    test_database_password: ~
+
+    environment_name_test: test
+    environment_variable_name: ENVIRONMENT

@@ -1,3 +1,0 @@
-web_canyon_cron_manager_homepage:
-    path:     /
-    defaults: { _controller: WebCanyonCronManagerBundle:Default:index }

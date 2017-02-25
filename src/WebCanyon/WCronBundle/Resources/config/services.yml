@@ -1,0 +1,10 @@
+services:
+    wcron.repository:
+        class: WebCanyon\WCronBundle\Repository\RepositoryService
+        arguments: ["@service_container"]
+
+    wcron.listener.cron.run:
+        class: WebCanyon\WCronBundle\Listener\CronRunListener
+        arguments: ["@service_container"]
+        tags:
+            - { name: kernel.event_listener, event: wcron.event.cron.run, method: run }

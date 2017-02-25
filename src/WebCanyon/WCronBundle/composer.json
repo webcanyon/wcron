@@ -1,0 +1,31 @@
+{
+  "name" : "WebCanyon/WCronBundle",
+  "description" : "Cron manager bundle for Symfony 3+ bundle",
+  "type" : "symfony-bundle",
+  "authors" : [{
+    "name" : "Catalin Radoi",
+    "email" : "admin@webcanyon.ro"
+  }],
+  "keywords" : [
+    "wcron bundle crontab crons cronjob symfony bundle"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+    "php": ">=7.1"
+  },
+  "autoload" : {
+    "psr-0" : {
+      "WebCanyon\\WCronBundle" : ""
+    }
+  },
+  "target-dir" : "WebCanyon/WCronBundle",
+  "repositories" : [{
+  }],
+  "extra" : {
+    "branch-alias" : {
+      "dev-master" : "some_version-dev"
+    }
+  }
+}
