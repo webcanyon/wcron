@@ -1,5 +1,5 @@
 {
-  "name" : "WebCanyon/WCronBundle",
+  "name" : "webcanyon/wcron",
   "description" : "Cron manager bundle for Symfony 3+ bundle",
   "type" : "symfony-bundle",
   "authors" : [{
