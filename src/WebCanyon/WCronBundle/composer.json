@@ -7,7 +7,7 @@
     "email" : "admin@webcanyon.ro"
   }],
   "keywords" : [
-    "wcron bundle crons cronjob symfony bundle"
+    "wcron bundle crontab crons cronjob symfony bundle"
   ],
   "license" : [
     "MIT"
